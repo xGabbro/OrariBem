@@ -3,8 +3,10 @@ function getClass() {
     
     loadJSON('data', function(response) {
         var data = JSON.parse(response);
+
+        console.log(Object.keys(data).length);
         
-        for(var i = 0; i < data.lenght; i++) {
+        for(var i = 0; i < Object.keys(data).length; i++) {
             console.log(data[i].name);
         }
 
