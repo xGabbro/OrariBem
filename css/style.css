@@ -1,64 +1,63 @@
-/* reset */
-html {
-  margin: 0;
-  padding: 0;
+/* Base */
+* {
+  margin: 0px;
+  padding: 0px;
 }
-label {
-  cursor: pointer; }
-    
-  .menu {
-  position: absolute;
-  top: 0;
-  left: 0;
-  background: #fff;
-  width: 240px;
-  height: 100%;
-  transform: translate3d(-240px, 0, 0);
-  transition: transform 0.35s }
-      
-  label.menu-toggle {
-    position: absolute;
-    right: -60px;
-    width: 60px;
-    height: 60px;
-    line-height: 0px;    
-    display: block;
-    padding: 0;
-    text-indent: -9999px;
-    background: #fff url(https://cdn4.iconfinder.com/data/icons/wirecons-free-vector-icons/32/menu-alt-512.png) 50% 50% / 25px 25px no-repeat }
-  
-    li > label {
-        background: url(https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-arrow-right-b-128.png) 95% 50% / 16px 16px no-repeat; }
-      a, label {
-        display: block;
-        text-align: center;
-        line-height: 60px;
-        text-decoration: none;
-        color: #000 }
-        hover {
-          color: #666 }
 
-li {
-  list-style: none;
-  border-bottom: #000 solid;
-  margin-right: 55px;
+/* Nav Bar */
+.navbar {
+  margin: 0px;
+  height: 50px;
+  padding: 0 20px;
+  background-color: #202020;
 }
-    
-/* hide inputs */          
-.menu-checkbox {
-  display: none }
 
-/* hide navigation icon for sublabels */    
-.menu .menu label.menu-toggle {
-  background: none }
-    
-/* fade in checked menu */    
-.menu-checkbox:checked + .menu {
-  transform: translate3d(0, 0, 0) }
 
-    
-    
-/* for show */
+a {
+  display: inline-block;
+  position: fixed;
+  font-family: Verdana, sans-serif;
+  text-decoration: none;
+	color: #fff;
+	font-size: 11px;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	position: relative;
+  -webkit-transition: all 0.4s ease;
+	transition: all 0.4s ease;
+  padding: 15px;
+}
+
+a:after {
+	content: "";
+	position: absolute;
+	height: 2px;
+	background-color: #800080;
+	width: 0;
+	left: 50%;
+	bottom: 0;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+	transform: translateX(-50%);
+	-webkit-transition: 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55) all;
+  transition: 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55) all;
+}
+
+a:hover {
+	color: #800080;
+}
+
+a:hover:after {
+	width: 80%;
+}
+
+a.active::after {
+  width: 80%;
+}
+
+/* End Nav Bar */
+
+/* Central Paragraph */
 html, body {
   height: 100% }
 
@@ -77,23 +76,24 @@ html, body {
 #info-content {
     display: table-cell;
     vertical-align: middle;
+    height: 250px;
     text-align: center;
-    text-transform: uppercase;
     color: #fff;
     font-size: 12px }
 
-    h1   {   
-      color: #fff;
-      border: 3px solid #fff;
-      text-align: center;
-      background: rgba(0,0,0,0.1);
-      font-size: 22px;
-      font-weight: normal;
-      padding: 20px;
-      margin: 10px;
-      display: inline-block; }
-    strong {
-        display: block;
-        font-size: 26px } 
+  h1   {   
+    color: #fff;
+    border: 3px solid #fff;
+    text-align: center;
+    text-transform: uppercase;
+    background: rgba(0,0,0,0.1);
+    font-size: 22px;
+    font-weight: normal;
+    padding: 20px;
+    margin: 10px;
+    display: inline-block; }
+  strong {
+    display: block;
+    font-size: 26px } 
    
   
