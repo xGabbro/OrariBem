@@ -2,9 +2,12 @@
 function getClass() {
     
     loadJSON('data', function(response) {
-          var data = JSON.parse(response);
+        var data = JSON.parse(response);
+        
+        for(var i = 0; i < data.lenght; i++) {
+            console.log(data[i].name);
+        }
 
-          console.log(data[1].name);
     });
 
 }
