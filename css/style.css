@@ -1,0 +1,99 @@
+/* reset */
+html {
+  margin: 0;
+  padding: 0;
+}
+label {
+  cursor: pointer; }
+    
+  .menu {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #fff;
+  width: 240px;
+  height: 100%;
+  transform: translate3d(-240px, 0, 0);
+  transition: transform 0.35s }
+      
+  label.menu-toggle {
+    position: absolute;
+    right: -60px;
+    width: 60px;
+    height: 60px;
+    line-height: 0px;    
+    display: block;
+    padding: 0;
+    text-indent: -9999px;
+    background: #fff url(https://cdn4.iconfinder.com/data/icons/wirecons-free-vector-icons/32/menu-alt-512.png) 50% 50% / 25px 25px no-repeat }
+  
+    li > label {
+        background: url(https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-arrow-right-b-128.png) 95% 50% / 16px 16px no-repeat; }
+      a, label {
+        display: block;
+        text-align: center;
+        line-height: 60px;
+        text-decoration: none;
+        color: #000 }
+        hover {
+          color: #666 }
+
+li {
+  list-style: none;
+  border-bottom: #000 solid;
+  margin-right: 55px;
+}
+    
+/* hide inputs */          
+.menu-checkbox {
+  display: none }
+
+/* hide navigation icon for sublabels */    
+.menu .menu label.menu-toggle {
+  background: none }
+    
+/* fade in checked menu */    
+.menu-checkbox:checked + .menu {
+  transform: translate3d(0, 0, 0) }
+
+    
+    
+/* for show */
+html, body {
+  height: 100% }
+
+  body {
+  overflow-x: hidden;
+  overflow-y: hidden;
+  background: url(https://37.media.tumblr.com/f6c67ec2821a91051e4175f8a102e1e2/tumblr_n6rzpcsMk41st5lhmo1_1280.jpg) 50% 50% / cover }
+
+
+#info {
+  display: table;
+  background-color: rgba(0,0,0,0.4);
+  height: 100%;
+  width: 100%; }
+
+#info-content {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 12px }
+
+    h1   {   
+      color: #fff;
+      border: 3px solid #fff;
+      text-align: center;
+      background: rgba(0,0,0,0.1);
+      font-size: 22px;
+      font-weight: normal;
+      padding: 20px;
+      margin: 10px;
+      display: inline-block; }
+    strong {
+        display: block;
+        font-size: 26px } 
+   
+  
