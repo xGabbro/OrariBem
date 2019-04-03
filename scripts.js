@@ -1,14 +1,25 @@
-var request = new XMLHttpRequest()
 
-request.open('GET', 'data.json', true)
+function getClass() {
+    
+    loadJSON('data', function(response) {
+          var data = JSON.parse(response);
 
-request.onload = function() {
-    var data = JSON.parse(this.response)
-
-    $.each(data, function(i, option) {
-        $('#sas').append($('<option/>').attr("value", i).text(data['class'][i]['name']));
+          console.log(data[1].name);
     });
 
 }
 
-request.send()
+function loadJSON(name, callback) {   
+
+    var xobj = new XMLHttpRequest();
+    xobj.overrideMimeType("application/json");
+    xobj.open('GET', name + '.json', true);
+    xobj.onreadystatechange = function () {
+          if (xobj.readyState == 4 && xobj.status == "200") {
+            callback(xobj.responseText);
+          }
+    };
+    xobj.send(null);  
+}
+
+getClass();
