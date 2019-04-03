@@ -1,59 +1,14 @@
-{
-    "class": [
-
-        {
-            "name": "1AF",
-            "lun" : "sas",
-            "mar" : "sas", 
-            "mer" : "sas",
-            "gio" : "sas",
-            "ven" : "sas" 
-        },
-
-        {
-            "name": "1AM",
-            "lun" : "sas",
-            "mar" : "sas", 
-            "mer" : "sas",
-            "gio" : "sas",
-            "ven" : "sas" 
-        },
-
-        {
-            "name": "1BF",
-            "lun" : "sas",
-            "mar" : "sas", 
-            "mer" : "sas",
-            "gio" : "sas",
-            "ven" : "sas" 
-        },
-
-        {
-            "name": "1BM",
-            "lun" : "sas",
-            "mar" : "sas", 
-            "mer" : "sas",
-            "gio" : "sas",
-            "ven" : "sas" 
-        },
-
-        {
-            "name": "1CM",
-            "lun" : "sas",
-            "mar" : "sas", 
-            "mer" : "sas",
-            "gio" : "sas",
-            "ven" : "sas" 
-        },
-
-        {
-            "name": "1DM",
-            "lun" : "sas",
-            "mar" : "sas", 
-            "mer" : "sas",
-            "gio" : "sas",
-            "ven" : "sas" 
-        }
-
-    ]
-}
+[
+    {
+        "name": "1AF",
+        "lun": "sas"
+    },
+    {
+        "name": "1AM",
+        "lun": "sus"
+    },
+    {
+        "name": "1BF",
+        "lun": "ses"
+    }
+]
