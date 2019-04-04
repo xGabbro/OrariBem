@@ -31,3 +31,17 @@ function loadJSON(name, callback) {
 }
 
 getClass();
+
+function provv() {
+	console.log(data[i].timetable["lun"]);
+	for(var t = 0; t < Object.keys(data[i]['timetable']).length; t++) {
+		var day = data[i].timetable[t];
+		console.log(day);
+		console.log(data[i].timetable['mon']);
+		var ul = document.getElementById("list");
+		var li = document.createElement("li");
+		li.appendChild(document.createTextNode("DIO PORCO"));
+		li.setAttribute("href", "#");
+		ul.appendChild(li);		
+	}
+}
