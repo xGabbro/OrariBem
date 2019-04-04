@@ -5,19 +5,30 @@
 
         <meta charset="utf-8">
         <title>Orari Bem</title>
+        
+        <!-- Link Rel-->
         <link rel="stylesheet" type="text/css" href="css/style.css">
+
+        <!-- Script Vari-->
         <script src="scripts/scripts.js"></script>
         
     </head>
     <body onload="buildClassList()">
+
         <!-- Nav Bar -->
         <div class="navbar">
-            <a href="#" style="float:right;" class="a">Classi e Sezioni</a>
-            <a href="#" style="float:right;" class="active">Home</a>
-            <a href="#" class="a">Progetto ISIS BEM</a>
+            <a href="#" class="active">Home</a>
+            <li class="dropdown">
+                    <a href="javascript:void(0)" class="dropbtn">Classi</a>
+                    <div class="dropdown-content">
+                       <a href="#">3IA-EC</a>
+                      </div>
+                      </li>
+            <a href="#" style="float: right" class="a">Progetto ISIS BEM</a>
         </div>
         <!-- End Nav Bar -->
 
+        <!-- Central Logo-->
         <div>
             <div id="info">
               <div id="info-content">
@@ -26,6 +37,7 @@
               </div>
             </div>
         </div>
+        <!-- End Central Logo-->
 
 
         <ul id="list">
