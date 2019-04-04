@@ -5,12 +5,13 @@
 	<meta charset="UTF-8" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>ORARI I.S.I.S. BEM</title>
-	<link rel="stylesheet" href="style.css">
+  <title>ORARI I.S.I.S. BEM</title>
+  <script src="scripts/scripts.js"></script>
+	<link rel="stylesheet" href="css/style.css">
 	<link rel="shortcut icon" href="favicon.ico">
 </head>
 
-<body class="demo-2">
+<body onload="buildClassList()" class="demo-2">
         <!-- Nav Bar -->
         <div class="navbar">
             <a href="#" class="active">Home</a>
@@ -25,8 +26,10 @@
 		</div>
 		
 		<div class="contenitore">
-			<center><a> Asni Bosni </a> <a> Azibido Roby </a> <a>Humble Claudio </a> <a> Clodian Clodiano</a> <a>Marcock</a> <a>Kha'Zix</a></center>
-		</div>
-</body>
+			<center id="classes">
+      </center>
+    </div>
+    
+  </body>
 
 </html>

@@ -7,7 +7,7 @@ function buildClassList() {
         
         for(var i = 0; i < Object.keys(data).length; i++) {
             console.log(data[i].name);
-            var ul = document.getElementById("author_bio_wrap");
+            var ul = document.getElementById("classes");
             var a = document.createElement("a");
             a.appendChild(document.createTextNode(data[i].name));
             a.setAttribute("href", "#");

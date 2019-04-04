@@ -1,6 +1,24 @@
+body {
+	font-family: "Avenir Next", Avenir, 'Helvetica Neue', 'Lato', 'Segoe UI', Helvetica, Arial, sans-serif;
+	color: #fff;
+	background-image: url("../images/home.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center 0px;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	overflow-y: hidden;
+	overflow-x: hidden;
+	width: auto;
+	margin: 0;
+	border: 0;
+}
+
 /* Nav Bar */
 .navbar {
-  margin: 0px;
+	border: 2px solid #440e81;
+	border-radius: 10px;
+  margin: 10px 10px 10px;
   height: 50px;
   padding: 0 20px;
   background-color: #202020;
@@ -67,20 +85,6 @@ h1 span {
 }
 
 /* End Nav Bar */
-
-body {
-	font-family: "Avenir Next", Avenir, 'Helvetica Neue', 'Lato', 'Segoe UI', Helvetica, Arial, sans-serif;
-	color: #fff;
-	background-image: url("https://bestwallpapers.in/wp-content/uploads/2018/07/wolf-howling-to-moon-minimal-4k-wallpaper-1024x576.jpg");
-	background-size: cover;
-	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
-	overflow-y: scroll;
-	overflow-x: hidden;
-	width: 100vw;
-	margin: 0;
-	border: 0;
-}
 
 .contenitore {
     margin: 50px auto;
