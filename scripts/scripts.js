@@ -20,9 +20,38 @@ function buildClassList() {
 
 //####
 
-function loadJSON(name, callback) {   
+//#### Funzionbe per la costruzione dell'orario
 
+function buildTimetable(name) {
+
+    loadJSON('data'), function(response) {
+        var data = JSON.parse(response);
+        var days = ['mon', 'tue', 'wed', 'thu', 'fri']
+        
+        days.forEach(function(day) {
+            var stringSubjects = data[name].timetable[day];
+            var subjects = stringSubject.split('_');
+
+            var counter = 1;
+            subjects.forEach(function(subject) {
+                
+                 
+
+            });
+
+        });
+
+    }
+
+}
+
+//####
+
+//#### Funzione per caricare un file JSON
+
+function loadJSON(name, callback) {   
     var xobj = new XMLHttpRequest();
+
     xobj.overrideMimeType("application/json");
     xobj.open('GET', name + '.json', true);
     xobj.onreadystatechange = function () {
@@ -31,7 +60,10 @@ function loadJSON(name, callback) {
           }
     };
     xobj.send(null);  
+
 }
+
+//####
 
 function provv() {
 	console.log(data[i].timetable["lun"]);
