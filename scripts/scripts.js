@@ -1,5 +1,6 @@
+//#### Funzione per il caricamento delle classi
 
-function getClass() {
+function buildClassList() {
     
     loadJSON('data', function(response) {
         var data = JSON.parse(response);
@@ -17,6 +18,8 @@ function getClass() {
 
 }
 
+//####
+
 function loadJSON(name, callback) {   
 
     var xobj = new XMLHttpRequest();
@@ -29,8 +32,6 @@ function loadJSON(name, callback) {
     };
     xobj.send(null);  
 }
-
-getClass();
 
 function provv() {
 	console.log(data[i].timetable["lun"]);
