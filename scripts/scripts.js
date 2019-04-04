@@ -7,11 +7,11 @@ function buildClassList() {
         
         for(var i = 0; i < Object.keys(data).length; i++) {
             console.log(data[i].name);
-            var ul = document.getElementById("list");
-            var li = document.createElement("li");
-            li.appendChild(document.createTextNode(data[i].name));
-            li.setAttribute("href", "#");
-            ul.appendChild(li);
+            var ul = document.getElementById("classes");
+            var a = document.createElement("a");
+            a.appendChild(document.createTextNode(data[i].name));
+            a.setAttribute("href", "#");
+            ul.appendChild(a);
         }
 
     });

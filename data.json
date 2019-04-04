@@ -29,5 +29,29 @@
 	{
         "name": "1DM",
         "lun": "ses"
+    },
+    {
+        "name": "2AF",
+        "lun": "ses"
+    },
+    {
+        "name": "2AM",
+        "lun": "sas"
+    },
+    {
+        "name": "2BF",
+        "lun": "ses"
+    },
+    {
+        "name": "2BM",
+        "lun": "ses"
+    },
+    {
+        "name": "2CM",
+        "lun": "ses"
+    },
+    {
+        "name": "2DM",
+        "lun": "ses"
     }
 ]
