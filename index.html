@@ -1,80 +1,32 @@
 <!DOCTYPE html>
+<html lang="en" class="no-js">
 
-<html>
-    <head>
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>ORARI I.S.I.S. BEM</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="shortcut icon" href="favicon.ico">
+</head>
 
-        <meta charset="utf-8">
-        <title>Orari Bem</title>
-        
-        <!-- Link Rel-->
-        <link rel="stylesheet" type="text/css" href="css/style.css">
-
-        <!-- Script Vari-->
-        <script src="scripts/scripts.js"></script>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-
-
-        <script>jQuery(document).ready(function($)
-                {
-                  
-                  $("#author_bio_wrap_toggle").click(function()
-                  {
-                    
-                    $("#author_bio_wrap").slideToggle( "slow");
-                    
-                      if ($("#author_bio_wrap_toggle").text() == "Chiudi")
-                      {			
-                        $("#author_bio_wrap_toggle").html("Tutte le CLASSI")
-                      }
-                      else 
-                      {		
-                        $("#author_bio_wrap_toggle").text("Chiudi")
-                      }
-                    
-                  });  
-                  
-                });</script>
-        
-    </head>
-    <body onload="buildClassList()">
-
+<body class="demo-2">
         <!-- Nav Bar -->
         <div class="navbar">
             <a href="#" class="active">Home</a>
-            <!--<li class="dropdown">
-                    <a href="javascript:void(0)" class="dropbtn">Classi</a>
-                    <div class="dropdown-content" id="classes">
-                    </div> 
-            </li> -->
             <a href="#" style="float: right" class="a">Progetto ISIS BEM</a>
         </div>
         <!-- End Nav Bar -->
-
-        <!-- Central Logo-->
-        <div>
-            <div id="info">
-              <div id="info-content">
-                <h1>ISIS BEM <strong>PROGETTO ORARI</strong></h1>
-                <p>Developed by Gabriele e Gianmattia</p>
-              </div>
-            </div>
-        </div>
-        <!-- End Central Logo-->
-
-        <center>
-            <div class="author_bio_toggle_wrapper">
-                <a href="#0" style-after="background-color: white" onMouseOver="this.style.color='white'" onMouseOut="this.style.color='white'" id="author_bio_wrap_toggle" style="margin-top: 50px; font-weight: normal; text-transform: uppercase; font-size: 20px; border: 3px solid #000;">Tutte le CLASSI</a>
-              </div>
-            </center>
-              <center>
-                  <div id="author_bio_wrap" style="display: none;">
-                    
-                    
-                    
-                </div>
-            </center>
-              </div>
-
-    </body>
+		
+		<center><div><br><br>
+			<div style="width: 500px">
+			<center><h1>Progetto ISIS BEM<span>Designed by Gabriele & Gianmattia</h1></center>
+			</div></center>
+		</div>
+		
+		<div class="contenitore">
+			<center><a> Asni Bosni </a> <a> Azibido Roby </a> <a>Humble Claudio </a> <a> Clodian Clodiano</a> <a>Marcock</a> <a>Kha'Zix</a></center>
+		</div>
+</body>
 
 </html>
