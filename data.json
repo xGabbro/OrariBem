@@ -1,57 +1,60 @@
 [
     {
-        "name": "1AF",
-		"timetable":
-		{
-			"mon": "Geografia_Inglese_Ita/Sto_Fisica_Ita/Sto_Matematica",
-			"tue": "Ec.Az._Matematica_Inglese_Ita/Sto_Ita/Sto_Geografica_Biologia_Diritto",
-			"wed": "Informatica_Matematica_Fra/Ted_Inglese_Religione_Ec.Az.",
-			"thu": "Diritto_Motoria_Motoria_Biologia_Ita/Sto_Ita/Sto",
-			"fri": "Matematica_Fisica_Fra/Ted_Geografia_Fra/Ted_Informatica"
-		}
+        "category": "prime",
+        "classes": [
+            {
+                "name": "1AF",
+                "timetable": {}
+            },
+            {
+                "name": "1AM",
+                "timetable": {}
+            },
+            {
+                "name": "1BF",
+                "timetable": {}
+            },
+            {
+                "name": "1BM",
+                "timetable": {}
+            },
+            {
+                "name": "1CM",
+                "timetable": {}
+            },
+            {
+                "name": "1DM",
+                "timetable": {}
+            }
+        ]
     },
     {
-        "name": "1AM",
-        "lun": "sus"
-    },
-    {
-        "name": "1BF",
-        "lun": "ses"
-    },
-	{
-        "name": "1BM",
-        "lun": "ses"
-    },
-	{
-        "name": "1CM",
-        "lun": "ses"
-    },
-	{
-        "name": "1DM",
-        "lun": "ses"
-    },
-    {
-        "name": "2AF",
-        "lun": "ses"
-    },
-    {
-        "name": "2AM",
-        "lun": "sas"
-    },
-    {
-        "name": "2BF",
-        "lun": "ses"
-    },
-    {
-        "name": "2BM",
-        "lun": "ses"
-    },
-    {
-        "name": "2CM",
-        "lun": "ses"
-    },
-    {
-        "name": "2DM",
-        "lun": "ses"
+        "category": "seconde",
+        "classes": [
+            {
+                "name": "2AF",
+                "timetable": {}
+            },
+            {
+                "name": "2AM",
+                "timetable": {}
+            },
+            {
+                "name": "2BF",
+                "timetable": {}
+            },
+            {
+                "name": "2BM",
+                "timetable": {}
+            },
+            {
+                "name": "2CM",
+                "timetable": {}
+            },
+            {
+                "name": "2DM",
+                "timetable": {}
+            }
+        ]
     }
 ]
