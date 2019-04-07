@@ -56,5 +56,76 @@
                 "timetable": {}
             }
         ]
+    },
+    {
+        "category": "terze",
+        "classes": [
+            {
+                "name": "3AF-RI",
+                "timetable": {}
+            },
+            {
+                "name": "3AT-ET",
+                "timetable": {}
+            },
+            {
+                "name": "3IA-EC",
+                "timetable": {}
+            },
+            {
+                "name": "3LG",
+                "timetable": {}
+            }
+        ]
+    },
+    {
+        "category": "quarte",
+        "classes": [
+            {
+                "name": "4AF-SI",
+                "timetable": {}
+            },
+            {
+                "name": "4AT-ET",
+                "timetable": {}
+            },
+            {
+                "name": "4IA",
+                "timetable": {}
+            },
+            {
+                "name": "4LG",
+                "timetable": {}
+            },
+            {
+                "name": "4RI",
+                "timetable": {}
+            }
+        ]
+    },
+    {
+        "category": "quinte",
+        "classes": [
+            {
+                "name": "5AF-SI",
+                "timetable": {}
+            },
+            {
+                "name": "5AT-ET",
+                "timetable": {}
+            },
+            {
+                "name": "5IA",
+                "timetable": {}
+            },
+            {
+                "name": "5LG",
+                "timetable": {}
+            },
+            {
+                "name": "5RI",
+                "timetable": {}
+            }
+        ]
     }
 ]

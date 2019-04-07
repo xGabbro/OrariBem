@@ -8,7 +8,6 @@ function buildClassList() {
         for(var i = 0; i < Object.keys(data).length; i++) {
             var ul = document.getElementById("classes");
 
-            var br = document.createElement("br");
             
             var _category = document.createElement("t");
             _category.appendChild(document.createTextNode(data[i].category));
@@ -16,19 +15,18 @@ function buildClassList() {
 
             ul.appendChild(_category);
 
-            ul.appendChild(br);
+            ul.innerHTML += "<br />";     
 
             for(var t = 0; t < Object.keys(data[i].classes).length; t++) {
                 
                 var _class = document.createElement("a");
                 _class.appendChild(document.createTextNode(data[i].classes[t].name));
-                _class.setAttribute("href", "#");
-                _class.setAttribute("style", "float: left");             
+                _class.setAttribute("href", "#");        
                 ul.appendChild(_class);
 
-            }
-            
-            ul.appendChild(br);
+            }     
+
+            ul.innerHTML += "<br />";  
 
         }
 
