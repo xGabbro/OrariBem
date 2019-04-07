@@ -7,7 +7,6 @@ function buildClassList() {
         
         for(var i = 0; i < Object.keys(data).length; i++) {
             var ul = document.getElementById("classes");
-
             
             var _category = document.createElement("t");
             _category.appendChild(document.createTextNode(data[i].category));
@@ -18,10 +17,11 @@ function buildClassList() {
             ul.innerHTML += "<br />";     
 
             for(var t = 0; t < Object.keys(data[i].classes).length; t++) {
-                
                 var _class = document.createElement("a");
-                _class.appendChild(document.createTextNode(data[i].classes[t].name));
-                _class.setAttribute("href", "#");        
+                var _name = data[i].classes[t].name; 
+
+                _class.appendChild(document.createTextNode(_name));
+                _class.setAttribute("href", "javascript:buildTimetable(\"" + _name + "\")");
                 ul.appendChild(_class);
 
             }     
@@ -39,6 +39,7 @@ function buildClassList() {
 //#### Funzionbe per la costruzione dell'orario
 
 function buildTimetable(name) {
+    console.log(name);
 
     loadJSON('data'), function(response) {
         var data = JSON.parse(response);
@@ -51,8 +52,7 @@ function buildTimetable(name) {
             var counter = 1;
             subjects.forEach(function(subject) {
                 
-                 
-
+                 console.log("sas");
             });
 
         });
@@ -80,18 +80,3 @@ function loadJSON(name, callback) {
 }
 
 //####
-
-function provv() {
-	console.log(data[i].timetable["lun"]);
-	for(var t = 0; t < Object.keys(data[i]['timetable']).length; t++) {
-		var day = data[i].timetable[t];
-		console.log(day);
-		console.log(data[i].timetable['mon']);
-		var ul = document.getElementById("list");
-		var li = document.createElement("li");
-		li.appendChild(document.createTextNode("DIO PORCO"));
-		li.setAttribute("href", "#");
-		ul.appendChild(li);		
-	}
-}
-
