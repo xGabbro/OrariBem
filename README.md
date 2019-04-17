@@ -9,5 +9,3 @@ OrariBem è un progetto sostenuto da Gabriele e Gianmattia (due studenti del Mar
 
 <br />
 <a href="xgabbro.github.io/OrariBem"> ![alt text](https://i.postimg.cc/wjmtv1gB/Minimal-Design.png) </a>
-
-<b> Minimal Design ✅ </b>
