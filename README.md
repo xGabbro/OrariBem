@@ -8,4 +8,4 @@ OrariBem è un progetto sostenuto da Gabriele e Gianmattia (due studenti del Mar
 - Il cambiamento degli orari può essere svolto in maniera semplice andando a modificare il file data.json
 
 <br />
-<a href="xgabbro.github.io/OrariBem"> ![alt text](https://i.postimg.cc/wjmtv1gB/Minimal-Design.png) </a>
+![alt text](https://i.postimg.cc/wjmtv1gB/Minimal-Design.png)
