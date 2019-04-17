@@ -6,6 +6,5 @@ OrariBem è un progetto sostenuto da Gabriele e Gianmattia (due studenti del Mar
 - Semplificazione nel uso dell'orario
 - Progetto Open-Source
 - Il cambiamento degli orari può essere svolto in maniera semplice andando a modificare il file data.json
-
 <br />
 ![Factions Logotype](https://www.massivecraft.com/wp-content/uploads/2011/07/massivecraft-logotype-plugin-factions-2000.jpg)
