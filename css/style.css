@@ -100,6 +100,6 @@ h1 span {
 /* ScrollBar Customization */
 .scroller {
 	height: 800px;
-	scrollbar-color: grey #f2f2f1;
+	scrollbar-color: #440e81 #202020;
 	scrollbar-width: thin;
 }
