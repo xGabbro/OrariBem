@@ -21,7 +21,7 @@ function buildClassList() {
                 var _name = data[i].classes[t].name; 
 
                 _class.appendChild(document.createTextNode(_name));
-                _class.setAttribute("href", "javascript:buildTimetable(\"" + _name + "\")");
+                _class.setAttribute("href", "javascript:buildTimetable(" + i + "," + t + ")");
                 ul.appendChild(_class);
 
             }     
@@ -38,26 +38,39 @@ function buildClassList() {
 
 //#### Funzionbe per la costruzione dell'orario
 
-function buildTimetable(name) {
-    console.log(name);
+function buildTimetable(category, cls) {
 
-    loadJSON('data'), function(response) {
+    loadJSON('data', function(response) {
         var data = JSON.parse(response);
         var days = ['mon', 'tue', 'wed', 'thu', 'fri']
+
+        var ul = document.getElementById("timetable");
         
         days.forEach(function(day) {
-            var stringSubjects = data[name].timetable[day];
-            var subjects = stringSubject.split('_');
+            var stringSubjects = data[category].classes[cls].timetable[day];
+            var subjects = stringSubjects.split('_');
+
+            var div = document.createElement("div");
+            div.setAttribute("class", "container");
+            div.setAttribute("id", day);
+
+            ul.appendChild(div);
 
             var counter = 1;
             subjects.forEach(function(subject) {
-                
-                 console.log("sas");
+                var divDay = document.getElementById(day);
+
+                var sub = document.createElement("a");
+                sub.appendChild(document.createTextNode(subject));
+                divDay.appendChild(sub);
+
             });
+
+            ul.innerHTML += "<br />";
 
         });
 
-    }
+    });
 
 }
 
