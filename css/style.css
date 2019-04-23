@@ -99,7 +99,7 @@ h1 span {
 
 /* ScrollBar Customization */
 .scroller {
-	height: 800px;
-	scrollbar-color: grey #f2f2f1;
+	height: 100%;
+	scrollbar-color: #000000 #f2f2f1;
 	scrollbar-width: thin;
 }
