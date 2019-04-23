@@ -8,7 +8,6 @@ body {
 	background-attachment: fixed;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
-	overflow-y: scroll;
 	overflow-x: hidden;
 	width: auto;
 	margin: 0;
@@ -97,3 +96,10 @@ h1 span {
     border-radius: 10px;
 		box-shadow: 0 8px 10px -2px #091c32;  
 }	
+
+/* ScrollBar Customization */
+.scroller {
+	height: 800px;
+	scrollbar-color: grey #f2f2f1;
+	scrollbar-width: thin;
+}
