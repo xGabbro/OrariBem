@@ -8,7 +8,7 @@ body {
 	background-attachment: fixed;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
-	overflow-y: hidden;
+	overflow-y: scroll;
 	overflow-x: hidden;
 	width: auto;
 	margin: 0;
