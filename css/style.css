@@ -24,7 +24,49 @@ body {
   background-color: #202020;
 }
 
+.navbar a {
+  display: inline-block;
+  position: fixed;
+  font-family: Verdana, sans-serif;
+  text-decoration: none;
+	color: #fff;
+	font-size: 11px;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	position: relative;
+  -webkit-transition: all 0.4s ease;
+	transition: all 0.4s ease;
+  padding: 15px;
+}
 
+.navbar a:after {
+	content: "";
+	position: absolute;
+	height: 2px;
+	background-color: #800080;
+	width: 0;
+	left: 50%;
+	bottom: 0;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+	transform: translateX(-50%);
+	-webkit-transition: 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55) all;
+  transition: 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55) all;
+}
+
+.navbar a:hover {
+	color: #800080;
+}
+
+.navbar a:hover:after {
+	width: 80%;
+}
+
+.navbar a.active::after {
+  width: 80%;
+}
+
+/* Classi */
 a {
   display: inline-block;
   position: fixed;
@@ -67,6 +109,37 @@ a.active::after {
   width: 80%;
 }
 
+/* Orario e Materie */
+.orario{
+  display: inline-block;
+  position: fixed;
+  font-family: Verdana, sans-serif;
+  text-decoration: none;
+	color: rgb(0, 0, 0);
+	font-size: 11.8px;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	position: relative;
+  -webkit-transition: all 0.4s ease;
+	transition: all 0.4s ease;
+	padding: 5px;
+	padding-top: 25px;
+}
+
+
+.orario:hover {
+	color: white;
+}
+
+.orario:hover:after {
+	width: 0%;
+}
+
+.orario.active::after {
+  width: 0%;
+}
+
+
 h1 {
 	margin: 0.5em 0 0;
 	letter-spacing: -1px;
@@ -95,6 +168,16 @@ h1 span {
     max-width: 800px;
     border-radius: 10px;
 		box-shadow: 0 8px 10px -2px #091c32;  
+}	
+
+.contenitore2 {
+	margin: 50px auto;
+	height: auto;
+	background: #dfd9d9;
+	width: 1200px;
+	font-size: 18px;
+	border-radius: 10px;
+	box-shadow: 0 8px 10px -2px #091c32;  
 }	
 
 /* ScrollBar Customization */

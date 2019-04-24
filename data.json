@@ -6,11 +6,11 @@
                 "name": "1AF",
                 "timetable": 
                 {
-                    "mon": "Geografia_Inglese_Italiano/Storia_Fisica_Italiano/Storia_Matematica",
-                    "tue": "Economia aziendale_Matematica_Inglese_Italiano/Storia_Italiano/Storia_Geografia_Biologia_Diritto",
-                    "wed": "Informatica_Matematica_Francese/Tedesco_Inglese_Religione_Economia aziendale",
-                    "thu": "Dirittto_Motoria_Mototoria_Biologia_Italiano/Storia_Italiano/Storia",
-                    "fri": "Matematica_Fisica_Francese/Tedesco_Geografia_Francese/Tedesco_Informatica"
+                    "mon": "Geografia__Inglese__Italiano/Storia_Fisica__Italiano/Storia__Matematica",
+                    "tue": "Economia aziendale__Matematica__Inglese__Italiano/Storia__Italiano/Storia__Geografia__Biologia__Diritto",
+                    "wed": "Informatica__Matematica__Francese/Tedesco__Inglese__Religione__Economia aziendale",
+                    "thu": "Diritto__Motoria__Mototoria__Biologia__Italiano/Storia__Italiano/Storia",
+                    "fri": "Matematica__Fisica__Francese/Tedesco__Geografia__Francese/Tedesco__Informatica"
                 }
             },
             {

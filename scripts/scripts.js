@@ -60,11 +60,12 @@ function buildTimetable(category, cls) {
 
             var counter = 1;
             subjects.forEach(function(subject) {
-                var divDay = document.getElementById(day);
+            var divDay = document.getElementById(day);
 
-                var sub = document.createElement("a");
-                sub.appendChild(document.createTextNode(subject));
-                divDay.appendChild(sub);
+            var sub = document.createElement("a");
+            sub.setAttribute("class", "orario");
+            sub.appendChild(document.createTextNode(subject));
+            divDay.appendChild(sub);
 
             });
 
