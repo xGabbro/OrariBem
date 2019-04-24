@@ -45,6 +45,8 @@ function buildTimetable(category, cls) {
         var days = ['mon', 'tue', 'wed', 'thu', 'fri']
 
         var ul = document.getElementById("timetable");
+
+        ul.innerHTML = "";
         
         days.forEach(function(day) {
             var stringSubjects = data[category].classes[cls].timetable[day];
