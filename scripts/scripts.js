@@ -21,7 +21,8 @@ function buildClassList() {
                 var _name = data[i].classes[t].name; 
 
                 _class.appendChild(document.createTextNode(_name));
-                _class.setAttribute("href", "javascript:buildTimetable(" + i + "," + t + ")");
+                _class.setAttribute("onClick", "buildTimetable(" + i + "," + t + ")");
+                _class.setAttribute("href", "#Orario");
                 ul.appendChild(_class);
 
             }     
