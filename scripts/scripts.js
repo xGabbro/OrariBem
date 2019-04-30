@@ -65,7 +65,7 @@ function buildTimetable(category, cls) {
 
                 var sub = document.createElement("a");
                 sub.setAttribute("class", "orario");
-                sub.appendChild(document.createTextNode(counter + "^Ora " + subject));
+                sub.appendChild(document.createTextNode(counter + "° " + subject));
                 divDay.appendChild(sub);
 
                 counter++;
