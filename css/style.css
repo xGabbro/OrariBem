@@ -183,7 +183,7 @@ h1 span {
 	margin: 50px auto;
 	height: auto;
 	background: #dfd9d9;
-	width: 1200px;
+	max-width: 1200px;
 	font-size: 18px;
 	border-radius: 10px;
 	box-shadow: 0 8px 10px -2px #091c32;  
