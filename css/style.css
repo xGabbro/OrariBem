@@ -1,3 +1,7 @@
+html {
+	scroll-behavior: smooth;
+}
+
 body {
 	font-family: "Avenir Next", Avenir, 'Helvetica Neue', 'Lato', 'Segoe UI', Helvetica, Arial, sans-serif;
 	color: #fff;
@@ -119,7 +123,7 @@ a.active::after {
   position: fixed;
   font-family: Verdana, sans-serif;
   text-decoration: none;
-	color: rgb(0, 0, 0);
+	color: white;
 	font-size: 11.8px;
 	letter-spacing: 2px;
 	text-transform: uppercase;
@@ -182,13 +186,15 @@ h1 span {
 .contenitore2 {
 	margin: 50px auto;
 	height: auto;
-	background: #dfd9d9;
+	background: 
+		linear-gradient(#202020, #202020) padding-box,
+		linear-gradient(135deg, #33d4ff, #24cf6f) border-box;;
 	max-width: 1200px;
+	border: 4px solid transparent;
 	font-size: 18px;
 	border-radius: 10px;
 	box-shadow: 0 8px 10px -2px #091c32;  
 }	
-
 /* ScrollBar Customization */
 .scroller {
 	height: 800px;

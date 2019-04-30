@@ -22,7 +22,7 @@ function buildClassList() {
 
                 _class.appendChild(document.createTextNode(_name));
                 _class.setAttribute("onClick", "buildTimetable(" + i + "," + t + ")");
-                _class.setAttribute("href", "#Orario");
+                _class.setAttribute("href", "#orario");
                 ul.appendChild(_class);
 
             }     
