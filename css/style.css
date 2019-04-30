@@ -193,8 +193,23 @@ h1 span {
 	border: 4px solid transparent;
 	font-size: 18px;
 	border-radius: 10px;
-	box-shadow: 0 8px 10px -2px #091c32;  
+	box-shadow: 0 8px 10px -2px #091c32;
+	opacity: 1;
+	animation-name: fadeInOpacity;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: .5s;
 }	
+
+@keyframes fadeInOpacity {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
 /* ScrollBar Customization */
 .scroller {
 	height: 800px;

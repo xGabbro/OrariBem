@@ -75,6 +75,10 @@ function buildTimetable(category, cls) {
 
         });
 
+        var cont = document.getElementById("asni");
+        cont.setAttribute("style", "");
+        cont.setAttribute("class", "contenitore2");
+
     });
 
 }
