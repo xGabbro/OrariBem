@@ -6,32 +6,67 @@
                 "name": "1AF",
                 "timetable": 
                 {
-                    "mon": "Geografia__Inglese__Italiano/Storia_Fisica__Italiano/Storia__Matematica",
-                    "tue": "Economia aziendale__Matematica__Inglese__Italiano/Storia__Italiano/Storia__Geografia__Biologia__Diritto",
-                    "wed": "Informatica__Matematica__Francese/Tedesco__Inglese__Religione__Economia aziendale",
-                    "thu": "Diritto__Motoria__Mototoria__Biologia__Italiano/Storia__Italiano/Storia",
-                    "fri": "Matematica__Fisica__Francese/Tedesco__Geografia__Francese/Tedesco__Informatica"
+                    "mon": "Geografia_Inglese_Italiano/Storia_Fisica_Italiano/Storia_Matematica",
+                    "tue": "Economia aziendale_Matematica_Inglese_Italiano/Storia_Italiano/Storia_Geografia_Biologia_Diritto",
+                    "wed": "Informatica_Matematica_Francese/Tedesco_Inglese_Religione_Economia aziendale",
+                    "thu": "Diritto_Motoria_Mototoria_Biologia_Italiano/Storia_Italiano/Storia",
+                    "fri": "Matematica_Fisica_Francese/Tedesco_Geografia_Francese/Tedesco_Informatica"
                 }
             },
             {
                 "name": "1AM",
-                "timetable": {}
+                "timetable": 
+                {
+                    "mon": "Geografia_Fisica_Fisica_Italiano/Storia_Biologia_Chimica",
+                    "tue": "Inglese_Matematica_Motoria_Motoria_Italiano/Storia_Italiano/Storia_Informatica_Informatica",
+                    "wed": "Fisica_Tecnica_Tecnica_Inglese_Italiano/Storia_Diritto",
+                    "thu": "Diritto_Tecnica_Italiano/Storia_Religione_Biologia_Matematica_Chimica",
+                    "fri": "Inglese_Informatica_Matematica_Matematica_Chimica_Italiano/Storia"
+                }
             },
             {
                 "name": "1BF",
-                "timetable": {}
+                "timetable": 
+                {
+                    "mon": "Motoria_Motoria_Tedesco_Italiano/Storia_Matematica_Fisica",
+                    "tue": "Informatica_Geografia_Tedesco_Italiano/Storia_Economia Aziendale_Matematica_Inglese_Biologia",
+                    "wed": "Tedesco_Biologia_Matematica_Italiano/Storia_Italiano/Storia_Diritto",
+                    "thu": "Geografia_Matematica_Religione_Inglese_Italiano/Storia_Informatica",
+                    "fri": "Fisica_Geografia_Inglese_Economia aziendale_Italiano/Storia_Diritto"
+                }
             },
             {
                 "name": "1BM",
-                "timetable": {}
+                "timetable": 
+                {
+                    "mon": "",
+                    "tue": "Economia aziendale_Matematica_Inglese_Italiano/Storia_Italiano/Storia_Geografia_Biologia_Diritto",
+                    "wed": "Informatica_Matematica_Francese/Tedesco_Inglese_Religione_Economia aziendale",
+                    "thu": "Diritto_Motoria_Mototoria_Biologia_Italiano/Storia_Italiano/Storia",
+                    "fri": "Matematica_Fisica_Francese/Tedesco_Geografia_Francese/Tedesco_Informatica"
+                }
             },
             {
                 "name": "1CM",
-                "timetable": {}
+                "timetable": 
+                {
+                    "mon": "Geografia_Inglese_Italiano/Storia_Fisica_Italiano/Storia_Matematica",
+                    "tue": "Economia aziendale_Matematica_Inglese_Italiano/Storia_Italiano/Storia_Geografia_Biologia_Diritto",
+                    "wed": "Informatica_Matematica_Francese/Tedesco_Inglese_Religione_Economia aziendale",
+                    "thu": "Diritto_Motoria_Mototoria_Biologia_Italiano/Storia_Italiano/Storia",
+                    "fri": "Matematica_Fisica_Francese/Tedesco_Geografia_Francese/Tedesco_Informatica"
+                }
             },
             {
                 "name": "1DM",
-                "timetable": {}
+                "timetable": 
+                {
+                    "mon": "Geografia_Inglese_Italiano/Storia_Fisica_Italiano/Storia_Matematica",
+                    "tue": "Economia aziendale_Matematica_Inglese_Italiano/Storia_Italiano/Storia_Geografia_Biologia_Diritto",
+                    "wed": "Informatica_Matematica_Francese/Tedesco_Inglese_Religione_Economia aziendale",
+                    "thu": "Diritto_Motoria_Mototoria_Biologia_Italiano/Storia_Italiano/Storia",
+                    "fri": "Matematica_Fisica_Francese/Tedesco_Geografia_Francese/Tedesco_Informatica"
+                }
             }
         ]
     },
