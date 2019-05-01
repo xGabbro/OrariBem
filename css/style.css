@@ -174,9 +174,8 @@ h1 span {
 		background: 
     	linear-gradient(#202020, #202020) padding-box,
     	linear-gradient(135deg, #fb3570, #1d13f5) border-box;
-    width: auto;
     font-size: 18px;
-		width: 1140px;
+		max-width: 1140px;
 		border: 4px solid transparent;
 		border-radius: 10px;
 		box-shadow: 0 8px 10px -2px #091c32;  
