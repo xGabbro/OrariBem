@@ -212,7 +212,29 @@ h1 span {
 
 /* ScrollBar Customization */
 .scroller {
+
+	/*Firefox*/
+
 	height: 800px;
-	scrollbar-color: #440e81 #202020;
+	scrollbar-color: #fb3570 #202020;
 	scrollbar-width: thin;
+
+	/*Edge*/
+
+  -ms-scrollbar-highlight-color: bisque;
+  -ms-scrollbar-face-color: red;
+  -ms-scrollbar-arrow-color: red;
+}
+
+/*Chrome*/
+::-webkit-scrollbar {
+	width: 6px;
+}
+
+::-webkit-scrollbar-track {
+	background: #202020; 
+}
+
+::-webkit-scrollbar-thumb {
+	background: #fb3570; 
 }
