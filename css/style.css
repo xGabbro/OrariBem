@@ -239,4 +239,12 @@ h1 span {
 
 .timetable {
 	border: 3px solid white;
+	max-width: 900px;
+	width: 900px;
+	padding-top: 10px;
+
+}
+
+.days {
+	text-transform: uppercase;
 }

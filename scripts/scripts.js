@@ -46,6 +46,7 @@ function buildTimetable(category, cls) {
         var days = ['lunedì', 'martedì', 'mercoledì', 'giovedì', 'venerdì']
 
         var ul = document.getElementById("sectionTT");
+        days.setAttribute("class", "days");
 
         var tbl = document.createElement("table");
         tbl.setAttribute("class", "timetable");
