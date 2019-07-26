@@ -242,6 +242,9 @@ h1 span {
 	max-width: 900px;
 	width: 900px;
 	padding-top: 10px;
+	padding-bottom: 10px;
+	padding: 10px;
+	margin-top: 20px;
 
 }
 
