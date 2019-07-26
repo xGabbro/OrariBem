@@ -250,6 +250,7 @@ h1 span {
 
 .tr {
 	padding: 20px;
+	border: 3px solid white;
 }
 
 .td {
