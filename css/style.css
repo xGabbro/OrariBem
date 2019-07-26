@@ -245,9 +245,9 @@ h1 span {
 	padding-bottom: 10px;
 	padding: 10px;
 	margin-top: 20px;
-
+	margin-bottom: 20px;
 }
 
-.days {
-	text-transform: uppercase;
+.tr {
+	padding: 10px;
 }

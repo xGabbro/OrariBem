@@ -55,8 +55,10 @@ function buildTimetable(category, cls) {
 
         //Aggiunge le ore all'orario
         var hoursRow = document.createElement("tr");
+        hoursRow.setAttribute("class", "tr");
         for (var i = 0; i < 9; i++) {
             var cell = document.createElement("td");
+            cell.setAttribute("class", "td");
 
             if (i == 0)
                 cell.appendChild(document.createTextNode(""));
