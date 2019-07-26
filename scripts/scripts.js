@@ -55,10 +55,8 @@ function buildTimetable(category, cls) {
 
         //Aggiunge le ore all'orario
         var hoursRow = document.createElement("tr");
-        hoursRow.setAttribute("class", "tr");
         for (var i = 0; i < 9; i++) {
             var cell = document.createElement("td");
-            cell.setAttribute("class", "td");
 
             if (i == 0)
                 cell.appendChild(document.createTextNode(""));
@@ -76,9 +74,11 @@ function buildTimetable(category, cls) {
             var subjects = stringSubjects.split('_');
 
             var row = document.createElement("tr");
+            row.setAttribute("class", "tr");
             
             //Aggiunge la cella del giorno
             var daycell = document.createElement("td");
+            daycell.setAttribute("class", "td");
             daycell.appendChild(document.createTextNode(day));
             row.appendChild(daycell);
 
