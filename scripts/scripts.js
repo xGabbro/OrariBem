@@ -44,7 +44,7 @@ function buildTimetable(category, cls) {
     loadJSON('data', function (response) {
         var data = JSON.parse(response);
         var days = ['lunedì', 'martedì', 'mercoledì', 'giovedì', 'venerdì'];
-        _category.setAttribute("style", "text-transform: uppercase");
+        days.setAttribute("style", "text-transform: uppercase");
 
         var ul = document.getElementById("sectionTT");
 
