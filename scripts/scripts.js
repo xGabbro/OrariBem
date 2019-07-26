@@ -43,7 +43,7 @@ function buildTimetable(category, cls) {
 
     loadJSON('data', function (response) {
         var data = JSON.parse(response);
-        var days = ['lunedì', 'martedì', 'mercoledì', 'giovedì', 'venerdì'];
+        var days = ['lunedì', 'martedì', 'mercoledì', 'giovedì', 'venerdì']
         days.setAttribute("style", "text-transform: uppercase");
 
         var ul = document.getElementById("sectionTT");
