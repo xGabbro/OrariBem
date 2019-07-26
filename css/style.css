@@ -219,9 +219,9 @@ h1 span {
 
 	/*Edge*/
 
-  -ms-scrollbar-highlight-color: bisque;
-  -ms-scrollbar-face-color: red;
-  -ms-scrollbar-arrow-color: red;
+ 	-ms-scrollbar-highlight-color: bisque;
+  	-ms-scrollbar-face-color: red;
+  	-ms-scrollbar-arrow-color: red;
 }
 
 /*Chrome*/
@@ -239,20 +239,24 @@ h1 span {
 
 .timetable {
 	border: 3px solid white;
-	max-width: 900px;
-	width: 900px;
-	padding-top: 10px;
-	padding-bottom: 10px;
-	padding: 10px;
-	margin-top: 20px;
-	margin-bottom: 20px;
+	width: 100%;
+	padding: 10px 10px 10px 10px;
+	margin: 20px auto;
+	table-layout: fixed;
 }
 
 .tr {
+
 	padding: 20px;
-	border: 3px solid white;
+	border-collapse: collapse;
+
 }
 
 .td {
+
 	padding: 20px;
+	text-align: center;
+	border: 2px solid white;
+	border-collapse: collapse;
+
 }
