@@ -43,41 +43,60 @@ function buildTimetable(category, cls) {
 
     loadJSON('data', function (response) {
         var data = JSON.parse(response);
-        var days = ['mon', 'tue', 'wed', 'thu', 'fri']
+        var days = ['lunedì', 'martedì', 'mercoledì', 'giovedì', 'venerdì']
 
-        var ul = document.getElementById("timetable");
+        var ul = document.getElementById("sectionTT");
+
+        var tbl = document.createElement("table");
+        tbl.setAttribute("class", "timetale");
+        var tblBody = document.createElement("tbody");
 
         ul.innerHTML = "";
 
+        //Aggiunge le ore all'orario
+        var hoursRow = document.createElement("tr");
+        for (var i = 0; i < 9; i++) {
+            var cell = document.createElement("td");
+
+            if (i == 0)
+                cell.appendChild(document.createTextNode(""));
+            else
+                cell.appendChild(document.createTextNode(i));
+
+            hoursRow.appendChild(cell);
+
+        }
+        tblBody.appendChild(hoursRow);
+
+        //Costruisce l'orario
         days.forEach(function (day) {
             var stringSubjects = data[category].classes[cls].timetable[day];
             var subjects = stringSubjects.split('_');
 
-            var div = document.createElement("div");
-            div.setAttribute("class", "container");
-            div.setAttribute("id", day);
+            var row = document.createElement("tr");
+            
+            //Aggiunge la cella del giorno
+            var daycell = document.createElement("td");
+            daycell.appendChild(document.createTextNode(day));
+            row.appendChild(daycell);
 
-            ul.appendChild(div);
-
+            //Aggiunge le materie di un determinato giorno
             var counter = 1;
             subjects.forEach(function (subject) {
-                var divDay = document.getElementById(day);
 
-                var sub = document.createElement("a");
-                sub.setAttribute("class", "orario");
-                sub.appendChild(document.createTextNode(counter + "° " + subject));
-                divDay.appendChild(sub);
+                var cell = document.createElement("td");
+                cell.appendChild(document.createTextNode(subject));
+                row.appendChild(cell);
 
                 counter++;
             });
 
-            ul.innerHTML += "<br />";
+            tblBody.appendChild(row);
 
         });
 
-        var cont = document.getElementById("asni");
-        cont.setAttribute("style", "");
-        cont.setAttribute("class", "contenitore2");
+        tbl.appendChild(tblBody);
+        ul.appendChild(tbl);
 
     });
 
