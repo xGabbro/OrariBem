@@ -43,7 +43,7 @@ function buildTimetable(category, cls) {
 
     loadJSON('data', function (response) {
         var data = JSON.parse(response);
-        var days = ['lunedì', 'martedì', 'mercoledì', 'giovedì', 'venerdì']
+        var days = ['Lunedì', 'Martedì', 'Mercoledì', 'Giovedì', 'Venerdì']
 
         var ul = document.getElementById("sectionTT");
 
