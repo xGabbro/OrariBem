@@ -249,5 +249,9 @@ h1 span {
 }
 
 .tr {
-	padding: 10px;
+	padding: 20px;
+}
+
+.td {
+	padding: 20px;
 }
