@@ -48,7 +48,7 @@ function buildTimetable(category, cls) {
         var ul = document.getElementById("sectionTT");
 
         var tbl = document.createElement("table");
-        tbl.setAttribute("class", "timetale");
+        tbl.setAttribute("class", "timetable");
         var tblBody = document.createElement("tbody");
 
         ul.innerHTML = "";

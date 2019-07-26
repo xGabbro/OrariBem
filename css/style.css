@@ -236,3 +236,7 @@ h1 span {
 ::-webkit-scrollbar-thumb {
 	background: #fb3570; 
 }
+
+.timetable {
+	border: 1px solid black;
+}
