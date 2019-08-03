@@ -6,11 +6,11 @@
                 "name": "1AF",
                 "timetable": 
                 {
-                    "lunedì": "Geografia_Inglese_Italiano / Storia_Fisica_Italiano / Storia_Matematica",
-                    "martedì": "Economia aziendale_Matematica_Inglese_Italiano / Storia_Italiano / Storia_Geografia_Biologia_Diritto",
-                    "mercoledì": "Informatica_Matematica_Francese / Tedesco_Inglese_Religione_Economia aziendale",
-                    "giovedì": "Diritto_Motoria_Mototoria_Biologia_Italiano / Storia_Italiano / Storia",
-                    "venerdì": "Matematica_Fisica_Francese / Tedesco_Geografia_Francese / Tedesco_Informatica"
+                    "lunedì": "Geografia_Inglese_Italiano/ Storia_Fisica_Italiano/ Storia_Matematica",
+                    "martedì": "Economia aziendale_Matematica_Inglese_Italiano/ Storia_Italiano/ Storia_Geografia_Biologia_Diritto",
+                    "mercoledì": "Informatica_Matematica_Francese/ Tedesco_Inglese_Religione_Economia aziendale",
+                    "giovedì": "Diritto_Motoria_Mototoria_Biologia_Italiano/ Storia_Italiano/ Storia",
+                    "venerdì": "Matematica_Fisica_Francese/ Tedesco_Geografia_Francese/ Tedesco_Informatica"
                 }
             },
             {
@@ -18,9 +18,9 @@
                 "timetable": 
                 {
                     "lunedì": "Geografia_Fisica_Fisica_Italiano/Storia_Biologia_Chimica",
-                    "martedì": "Inglese_Matematica_Motoria_Motoria_Italiano/ Storia_Italiano/Storia_Informatica_Informatica",
+                    "martedì": "Inglese_Matematica_Motoria_Motoria_Italiano/ Storia_Italiano/ Storia_Informatica_Informatica",
                     "mercoledì": "Fisica_Tecnica_Tecnica_Inglese_Italiano/ Storia_Diritto",
-                    "giovedì": "Diritto_Tecnica_Italiano/Storia_Religione_Biologia_Matematica_Chimica",
+                    "giovedì": "Diritto_Tecnica_Italiano/ Storia_Religione_Biologia_Matematica_Chimica",
                     "venerdì": "Inglese_Informatica_Matematica_Matematica_Chimica_Italiano/ Storia"
                 }
             },
