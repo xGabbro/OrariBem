@@ -241,12 +241,14 @@ h1 span {
 
 .timetable, .td, .th {
 	border: 1px solid white;
+	border-radius: 10px;
 	padding: 20px;
 	border-collapse: collapse;
   }
   
   
   .timetable {
+	  margin: 5px;
 	  max-width: 980px;
 	  width: 980px;
   }
