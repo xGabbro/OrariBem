@@ -251,7 +251,7 @@ h1 span {
   }
   
   .td {
-	  width: 100px;
+	  max-width: 100px;
 	  padding: 20px;
 	  text-align: center;
 	  border: 1px solid white;
