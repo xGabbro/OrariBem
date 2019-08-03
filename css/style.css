@@ -248,11 +248,10 @@ h1 span {
   
   .timetable {
 	  max-width: 980px;
-	  width: 980px;
   }
   
   .td {
-	  max-width: 100px;
+	  max-width: 90px;
 	  padding: 20px;
 	  text-align: center;
 	  border: 1px solid white;
