@@ -241,6 +241,7 @@ h1 span {
 .timetable {
 	border: 3px solid white;
 	padding: 10px 10px 10px 10px;
+	width: 100%;
 }
 
 .tr {
