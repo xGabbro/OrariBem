@@ -57,7 +57,7 @@ function buildTimetable(category, cls) {
         var hoursRow = document.createElement("tr");
         hoursRow.setAttribute("class", "tr");
         for (var i = 0; i < 9; i++) {
-            var cell = document.createElement("td");
+            var cell = document.createElement("th");
 
             if (i == 0)
                 cell.appendChild(document.createTextNode(""));

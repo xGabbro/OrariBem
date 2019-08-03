@@ -6,11 +6,11 @@
                 "name": "1AF",
                 "timetable": 
                 {
-                    "lunedì": "Geografia_Inglese_Italiano/Storia_Fisica_Italiano/Storia_Matematica",
-                    "martedì": "Economia aziendale_Matematica_Inglese_Italiano/Storia_Italiano/Storia_Geografia_Biologia_Diritto",
-                    "mercoledì": "Informatica_Matematica_Francese/Tedesco_Inglese_Religione_Economia aziendale",
-                    "giovedì": "Diritto_Motoria_Mototoria_Biologia_Italiano o Storia_Italiano/Storia",
-                    "venerdì": "Matematica_Fisica_Francese/Tedesco_Geografia_Francese o Tedesco_Informatica"
+                    "lunedì": "Geografia_Inglese_Italiano/Storia_Fisica_Italiano/ Storia_Matematica",
+                    "martedì": "Economia aziendale_Matematica_Inglese_Italiano/Storia_Italiano/ Storia_Geografia_Biologia_Diritto",
+                    "mercoledì": "Informatica_Matematica_Francese/ Tedesco_Inglese_Religione_Economia aziendale",
+                    "giovedì": "Diritto_Motoria_Mototoria_Biologia_Italiano/ Storia_Italiano/ Storia",
+                    "venerdì": "Matematica_Fisica_Francese/ Tedesco_Geografia_Francese/ Tedesco_Informatica"
                 }
             },
             {
@@ -18,10 +18,10 @@
                 "timetable": 
                 {
                     "lunedì": "Geografia_Fisica_Fisica_Italiano/Storia_Biologia_Chimica",
-                    "martedì": "Inglese_Matematica_Motoria_Motoria_Italiano/Storia_Italiano/Storia_Informatica_Informatica",
-                    "mercoledì": "Fisica_Tecnica_Tecnica_Inglese_Italiano/Storia_Diritto",
+                    "martedì": "Inglese_Matematica_Motoria_Motoria_Italiano/ Storia_Italiano/Storia_Informatica_Informatica",
+                    "mercoledì": "Fisica_Tecnica_Tecnica_Inglese_Italiano/ Storia_Diritto",
                     "giovedì": "Diritto_Tecnica_Italiano/Storia_Religione_Biologia_Matematica_Chimica",
-                    "venerdì": "Inglese_Informatica_Matematica_Matematica_Chimica_Italiano/Storia"
+                    "venerdì": "Inglese_Informatica_Matematica_Matematica_Chimica_Italiano/ Storia"
                 }
             },
             {
@@ -29,43 +29,43 @@
                 "timetable": 
                 {
                     "lunedì": "Motoria_Motoria_Tedesco_Italiano/Storia_Matematica_Fisica",
-                    "martedì": "Informatica_Geografia_Tedesco_Italiano/Storia_Economia Aziendale_Matematica_Inglese_Biologia",
-                    "mercoledì": "Tedesco_Biologia_Matematica_Italiano/Storia_Italiano/Storia_Diritto",
-                    "giovedì": "Geografia_Matematica_Religione_Inglese_Italiano/Storia_Informatica",
-                    "venerdì": "Fisica_Geografia_Inglese_Economia aziendale_Italiano/Storia_Diritto"
+                    "martedì": "Informatica_Geografia_Tedesco_Italiano/ Storia_Economia Aziendale_Matematica_Inglese_Biologia",
+                    "mercoledì": "Tedesco_Biologia_Matematica_Italiano/ Storia_Italiano/ Storia_Diritto",
+                    "giovedì": "Geografia_Matematica_Religione_Inglese_Italiano/ Storia_Informatica",
+                    "venerdì": "Fisica_Geografia_Inglese_Economia aziendale_Italiano/ Storia_Diritto"
                 }
             },
             {
                 "name": "1BM",
                 "timetable": 
                 {
-                    "lunedì": "Italiano/Storia_Italiano/Storia_Matematica_Fisica_Chimica_Geografia",
-                    "martedì": "Motoria_Motoria_Inglese_Matematica_Informatica_Italiano/Storia_Tecnica_Tecnica",
-                    "mercoledì": "Diritto_Inglese_Matematica_Italiano/Storia_Chimica_Biologia",
-                    "giovedì": "Italiano/Storia_Matematica_Biologia_Fisica_Fisica_Tecnica_Religione",
-                    "venerdì": "Diritto_Inglese_Italiano/Storia_Informatica_Informatica_Chimica"
+                    "lunedì": "Italiano/ Storia_Italiano/ Storia_Matematica_Fisica_Chimica_Geografia",
+                    "martedì": "Motoria_Motoria_Inglese_Matematica_Informatica_Italiano/ Storia_Tecnica_Tecnica",
+                    "mercoledì": "Diritto_Inglese_Matematica_Italiano/ Storia_Chimica_Biologia",
+                    "giovedì": "Italiano/ Storia_Matematica_Biologia_Fisica_Fisica_Tecnica_Religione",
+                    "venerdì": "Diritto_Inglese_Italiano/ Storia_Informatica_Informatica_Chimica"
                 }
             },
             {
                 "name": "1CM",
                 "timetable": 
                 {
-                    "lunedì": "Italiano/Storia_Italiano/Storia_Informatica_Informatica_Matematica_Diritto",
+                    "lunedì": "Italiano/ Storia_Italiano/ Storia_Informatica_Informatica_Matematica_Diritto",
                     "martedì": "Italiano/Storia_Inglese_Diritto_Matematica_Tecnica_Tecnica_Fisica_Informatica",
-                    "mercoledì": "Biologia_Chimica_Fisica_Italiano/Storia_Inglese_Matematica",
-                    "giovedì": "Italiano/Storia_Fisica_Tecnica_Chimica_Matematica_Motoria_Motoria",
-                    "venerdì": "Geografia_Religione_Chimica_Inglese_Italiano/Storia_Biologia"
+                    "mercoledì": "Biologia_Chimica_Fisica_Italiano/ Storia_Inglese_Matematica",
+                    "giovedì": "Italiano/ Storia_Fisica_Tecnica_Chimica_Matematica_Motoria_Motoria",
+                    "venerdì": "Geografia_Religione_Chimica_Inglese_Italiano/ Storia_Biologia"
                 }
             },
             {
                 "name": "1DM",
                 "timetable": 
                 {
-                    "lunedì": "Informatica_Informatica_Italiano/Storia_Tecnica_Tecnica_Matematica",
-                    "martedì": "Matematica_Italiano/Storia_Italiano/Storia_Inglese_Chimica_Religione_Informatica_Fisica",
-                    "mercoledì": "Diritto_Fisica_Matematica_Italiano/Storia_Biologia_Inglese",
-                    "giovedì": "Italiano/Storia_Biologia_Chimica_Matematica_Tecnica_Geografia_Diritto",
-                    "venerdì": "Italiano/Storia_Chimica_Motoria_Motoria_Inglese_Fisica"
+                    "lunedì": "Informatica_Informatica_Italiano/ Storia_Tecnica_Tecnica_Matematica",
+                    "martedì": "Matematica_Italiano/ Storia_Italiano/ Storia_Inglese_Chimica_Religione_Informatica_Fisica",
+                    "mercoledì": "Diritto_Fisica_Matematica_Italiano/ Storia_Biologia_Inglese",
+                    "giovedì": "Italiano/ Storia_Biologia_Chimica_Matematica_Tecnica_Geografia_Diritto",
+                    "venerdì": "Italiano/ Storia_Chimica_Motoria_Motoria_Inglese_Fisica"
                 }
             }
         ]
