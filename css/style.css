@@ -6,7 +6,7 @@ body {
 	font-family: "Avenir Next", Avenir, 'Helvetica Neue', 'Lato', 'Segoe UI', Helvetica, Arial, sans-serif;
 	color: #fff;
 	background-image: url("../images/home.jpg");
-	background-size: auto;
+	background-size: 100% 100%;
 	background-repeat: no-repeat;
 	background-position: center 0px;
 	background-attachment: fixed;
