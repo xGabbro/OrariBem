@@ -237,26 +237,20 @@ h1 span {
 	background: #fb3570; 
 }
 
-.timetable {
-	border: 3px solid white;
-	width: 100%;
-	padding: 10px 10px 10px 10px;
-	margin: 20px auto;
-	table-layout: fixed;
-}
-
-.tr {
-
+.timetable, .td, .th {
+	border: 1px solid black;
 	padding: 20px;
 	border-collapse: collapse;
-
-}
-
-.td {
-
-	padding: 20px;
-	text-align: center;
-	border: 2px solid white;
-	border-collapse: collapse;
-
-}
+  }
+  
+  
+  .timetable {
+	  width: 1000px;
+  }
+  
+  .td {
+	  width: 100px;
+	  padding: 20px;
+	  text-align: center;
+	  border: 1px solid black;
+  }
