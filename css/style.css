@@ -237,8 +237,10 @@ h1 span {
 	background: #fb3570; 
 }
 
+/*TimeTable*/
+
 .timetable, .td, .th {
-	border: 1px solid black;
+	border: 1px solid white;
 	padding: 20px;
 	border-collapse: collapse;
   }
@@ -252,5 +254,5 @@ h1 span {
 	  width: 100px;
 	  padding: 20px;
 	  text-align: center;
-	  border: 1px solid black;
+	  border: 1px solid white;
   }
