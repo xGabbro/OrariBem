@@ -247,7 +247,8 @@ h1 span {
   
   
   .timetable {
-	  max-width: 1000px;
+	  max-width: 980px;
+	  width: 980px;
   }
   
   .td {
