@@ -247,9 +247,10 @@ h1 span {
   
   
   .timetable {
-	  margin: 20px auto;
+	  margin: 20px;
 	  border-radius: 10px;
 	  width: auto;
+	  height: 500px;
   }
   
   .td {
