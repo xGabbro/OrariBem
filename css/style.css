@@ -21,6 +21,13 @@ body {
 	border: 0;
 }
 
+@media screen and (max-width: 1024px) {
+	body {
+	  left: 50%;
+	  margin-left: -512px;   /* 50% */
+	}
+  }
+
 @media only screen and (max-width: 767px) {
 	body {
 	  background-image: url("../images/home.jpg");
@@ -252,11 +259,12 @@ h1 span {
 .timetable, .td, .th {
 	padding: 20px;
 	border-collapse: collapse;
-  }
+	border: 1px solid white;
+}
 
    
   .timetable {
-	  margin: 10px auto;
+	  margin: 15px auto;
   }
   
 
