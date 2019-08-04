@@ -90,7 +90,7 @@ function buildTimetable(category, cls) {
 
                 var cell = document.createElement("td");
                 cell.setAttribute("class", "td");
-                cell.appendChild(document.createTextNode(subject));
+                cell.appendChild(document.createTextNode(subject.replace("/", "/ ")));
                 row.appendChild(cell);
 
                 counter++;
