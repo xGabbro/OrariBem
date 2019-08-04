@@ -5,17 +5,27 @@ html {
 body {
 	font-family: "Avenir Next", Avenir, 'Helvetica Neue', 'Lato', 'Segoe UI', Helvetica, Arial, sans-serif;
 	color: #fff;
+
+	/* Background Responsive */
 	background-image: url("../images/home.jpg");
-	background-size: 100% 100%;
+	background-size: cover;
 	background-repeat: no-repeat;
-	background-position: center 0px;
+	background-position: center center;
 	background-attachment: fixed;
+	/* End Responsive */
+
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 	overflow-x: hidden;
 	margin: 0;
 	border: 0;
 }
+
+@media only screen and (max-width: 767px) {
+	body {
+	  background-image: url("../images/home.jpg");
+	}
+  }
 
 /* Nav Bar */
 .navbar {
@@ -244,9 +254,9 @@ h1 span {
 	border-collapse: collapse;
   }
 
-  
+   
   .timetable {
-	  margin: 20px 10px 10px 10px;
+	  margin: 10px auto;
   }
   
 
