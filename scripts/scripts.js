@@ -81,7 +81,7 @@ function buildTimetable(category, cls) {
             //Aggiunge la cella del giorno
             var daycell = document.createElement("td");
             daycell.setAttribute("class", "td");
-            daycell.appendChild(document.createTextNode(day));
+            daycell.appendChild(document.createTextNode(day.toUpperCase()));
             row.appendChild(daycell);
 
             //Aggiunge le materie di un determinato giorno
