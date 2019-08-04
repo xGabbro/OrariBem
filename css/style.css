@@ -240,21 +240,19 @@ h1 span {
 /*TimeTable*/
 
 .timetable, .td, .th {
-	border: 1px solid white;
 	padding: 20px;
 	border-collapse: collapse;
   }
-  
+
   
   .timetable {
-	  margin: 20px;
-	  border-radius: 10px;
-	  width: auto;
-	  height: 500px;
+	  margin: 20px 10px 10px 10px;
   }
   
+
   .td {
-	  padding: 20px;
+	  padding: 18px;
 	  text-align: center;
-	  border: 1px solid white;
+	  height: 50px;
+	  border: 1px solid rgb(255, 255, 255);
   }
