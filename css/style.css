@@ -6,16 +6,17 @@ body {
 	font-family: "Avenir Next", Avenir, 'Helvetica Neue', 'Lato', 'Segoe UI', Helvetica, Arial, sans-serif;
 	color: #fff;
 
-	background: url("../images/home.jpg") no-repeat center center fixed;
-	-webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    height: 100%;
-    overflow: hidden;
+	/* Background Responsive */
+	background-image: url("../images/home.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-attachment: fixed;
+	/* End Responsive */
 
 	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale; 
+	-moz-osx-font-smoothing: grayscale;
+	overflow-x: hidden;
 	margin: 0;
 	border: 0;
 }
