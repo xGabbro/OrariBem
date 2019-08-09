@@ -26,9 +26,7 @@ body {
 		/* Background Responsive */
 		background-image: url("../images/home.jpg");
 		background-size: 2300px auto;
-		background-repeat: no-repeat;
-		background-position: center 0px;
-	}
+	}}
 
 /* Nav Bar */
 .navbar {
