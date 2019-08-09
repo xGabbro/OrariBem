@@ -274,8 +274,7 @@ h1 span {
 
 	.timetable {
 		transform: scale(0.55);
-		margin: 10px auto;
-		transform-origin: top left;
+		position: fixed;
 	}
 
 	.td {
