@@ -10,7 +10,7 @@ body {
 	background-image: url("../images/home.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
-	background-position: center center;
+	background-position: center 0px;
 	background-attachment: fixed;
 	/* End Responsive */
 
