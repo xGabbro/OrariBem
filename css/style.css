@@ -25,7 +25,7 @@ body {
 	body {
 		/* Background Responsive */
 		background-image: url("../images/home.jpg");
-		background-size: 2300px auto;
+		background-size: 1080px 2300px;
 	}}
 
 /* Nav Bar */
