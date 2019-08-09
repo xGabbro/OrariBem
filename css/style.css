@@ -8,9 +8,7 @@ body {
 
 	/* Background Responsive */
 	background-image: url("../images/home.jpg");
-	background-size: 100%;
 	background-repeat: no-repeat;
-	background-position: center 0px;
 	background-attachment: fixed;
 	/* End Responsive */
 
@@ -21,12 +19,12 @@ body {
 	border: 0;
 }
 
-@media screen and (min-width: 400px) and (max-width: 1100px) {
-	body {
-		/* Background Responsive */
+@media screen and (min-width:768px) {
+	body{
 		background-image: url("../images/home.jpg");
-		background-size: 1080px 2300px;
-	}}
+		background-size: cover;
+		}
+	}
 
 /* Nav Bar */
 .navbar {
