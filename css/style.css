@@ -21,6 +21,15 @@ body {
 	border: 0;
 }
 
+@media screen and (min-width: 400px) and (max-width: 1100px) {
+	body {
+		/* Background Responsive */
+		background-image: url("../images/home.jpg");
+		background-size: 2300px auto;
+		background-repeat: no-repeat;
+		background-position: center 0px;
+	}
+
 /* Nav Bar */
 .navbar {
 	border: 1px solid transparent;
